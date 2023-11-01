@@ -1,11 +1,11 @@
 import React,{useState} from 'react';
 import './App.css';
-import backgroundImage from './background.jpg';
+import backgroundImage from './health.jpg';
 
 
 function App() {
-  const [weight, setWeight] = useState(0);
-  const [height, setHeight] = useState(0);
+  const [weight, setWeight] = useState('');
+  const [height, setHeight] = useState('');
   const [bmi, setBmi] = useState('');
   const [message ,setMessage] = useState( '')
 
